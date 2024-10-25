@@ -1,0 +1,116 @@
+* {
+    background-color: #1e1e1e;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.container {
+    display: flex; /* This makes the buttons align horizontally */
+    justify-content: center; /* Centers the buttons horizontally */
+  }
+
+nav{
+    background-color: #181818;
+}
+
+.button{
+    background-color: #921ddb;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: .4s;
+    text-align: center;
+    margin: 0;
+    font-style: bold;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid #921ddb;
+    cursor: pointer;
+}
+h1 {
+    text-align: center;
+}
+h5 {
+  text-align: center;
+}
+.poppins{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+/* Container for the switch */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.switch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    
+  }
+  
+  /* The switch itself */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide the default checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 34px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  /* Circle inside the switch */
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+  }
+  
+  /* Toggle ON */
+  input:checked + .slider {
+    background-color: #A020F0; /* Bright Purple as the ON color */
+  }
+  
+  /* Move the circle when checked */
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  #toggleImage {
+    transition: opacity 0.5s ease; /* Adjust duration as needed */
+}
+.fade-out {
+    opacity: 0;
+}
