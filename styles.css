@@ -36,9 +36,15 @@ nav{
 }
 h1 {
     text-align: center;
+    background-color: transparent;
 }
 h5 {
   text-align: center;
+  background-color: transparent;
+}
+h3{
+  text-align: center;
+  background-color: transparent;
 }
 .poppins{
     font-family: "Poppins", sans-serif;
@@ -121,4 +127,10 @@ h5 {
 }
 .fade-out {
     opacity: 0;
+}
+.blue {
+  color: lightblue;
+}
+.giticon{
+  background-color: transparent;
 }
