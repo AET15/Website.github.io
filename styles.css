@@ -11,7 +11,9 @@
 nav{
     background-color: #181818;
 }
-
+.bigText {
+  font-size: large;
+}
 .button{
     background-color: #921ddb;
     color: white;
