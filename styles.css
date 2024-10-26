@@ -43,6 +43,12 @@ h5 {
     font-weight: 600;
     font-style: normal;
 }
+.ubuntu {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* Container for the switch */
 .center {
   display: flex;
